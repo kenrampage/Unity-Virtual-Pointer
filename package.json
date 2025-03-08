@@ -1,0 +1,24 @@
+{
+  "name": "com.kenrampage.virtualpointer",
+  "version": "1.0.0",
+  "displayName": "Virtual Pointer",
+  "description": "A virtual mouse pointer device that can be controlled via gamepad or other directional input",
+  "unity": "2022.3",
+  "documentationUrl": "https://github.com/kenrampage/Virtual-Pointer",
+  "changelogUrl": "https://github.com/kenrampage/Virtual-Pointer/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/kenrampage/Virtual-Pointer/blob/main/LICENSE.md",
+  "dependencies": {
+    "com.unity.inputsystem": "1.7.0"
+  },
+  "author": {
+    "name": "Ken Rampage",
+    "url": "https://github.com/kenrampage/Virtual-Pointer"
+  },
+  "samples": [
+    {
+      "displayName": "Virtual Pointer",
+      "description": "Sample scene for the Virtual Pointer",
+      "path": "Samples/Virtual Pointer"
+    }
+  ]
+}
