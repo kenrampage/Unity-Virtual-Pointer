@@ -7,7 +7,7 @@ using UnityEngine.InputSystem.Layouts;
 /// It represents a virtual pointer device with a customizable position control.
 /// The class is decorated with the InputControlLayout attribute to specify its state type and display name.
 /// </summary>
-namespace Tools.UGUI.VirtualPointer
+namespace KenRampage.VirtualPointer
 {
     [InputControlLayout(stateType = typeof(VirtualPointerInputStateTypeInfo), displayName = "Virtual Pointer")]
     public class VirtualPointer : Pointer

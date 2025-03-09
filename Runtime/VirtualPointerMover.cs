@@ -2,12 +2,12 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
 
-namespace Tools.UGUI.VirtualPointer
+namespace KenRampage.VirtualPointer
 {
     /// <summary>
     /// Manages the movement of a virtual pointer using both directional and positional input.
     /// </summary>
-    [AddComponentMenu("Tools/UGUI/Virtual Pointer/Virtual Pointer Mover")]
+    [AddComponentMenu("Ken Rampage/Virtual Pointer/Virtual Pointer Mover")]
     public class VirtualPointerMover : MonoBehaviour
     {
         #region Fields

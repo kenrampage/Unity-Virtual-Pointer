@@ -9,7 +9,7 @@ using UnityEngine.InputSystem.LowLevel;
 /// It implements the IInputStateTypeInfo interface to provide information about the input state format.
 /// The struct contains a single control, position, which is a Vector2 representing the pointer's position.
 /// </summary>
-namespace Tools.UGUI.VirtualPointer
+namespace KenRampage.VirtualPointer
 {
     public struct VirtualPointerInputStateTypeInfo : IInputStateTypeInfo
     {

@@ -3,15 +3,15 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Layouts;
 
-namespace Tools.UGUI.VirtualPointer
+namespace KenRampage.VirtualPointer
 {
     /// <summary>
     /// Handles the creation and management of a virtual pointer for UI interaction.
     /// </summary>
-    [AddComponentMenu("Tools/UGUI/Virtual Pointer/Virtual Pointer Handler")]
+    [AddComponentMenu("Ken Rampage/Virtual Pointer/Virtual Pointer Handler")]
     [RequireComponent(typeof(RectTransform))]
     public class VirtualPointerHandler : MonoBehaviour
-    {
+    {        
         #region Fields
         private VirtualPointer _virtualPointer;
         private RectTransform _rectTransform;
